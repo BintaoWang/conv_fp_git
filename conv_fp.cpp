@@ -1,5 +1,7 @@
 #include "conv_fp.hpp"
 //记得上传到github
+//
+// loading input feature data from AXI4-Stream to BRAM
 void load_input_feature(
 		stream<AXI_VAL_IN> &str_in_0,
 		stream<AXI_VAL_IN> &str_in_1,
